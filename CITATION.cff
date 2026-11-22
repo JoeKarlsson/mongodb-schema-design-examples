@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: 'If you use these examples or the article they come from, please cite the article.'
+title: 'MongoDB Schema Design Best Practices: runnable examples'
+type: software
+authors:
+  - family-names: Karlsson
+    given-names: Joe
+    website: 'https://www.joekarlsson.com'
+repository-code: 'https://github.com/JoeKarlsson/mongodb-schema-design-examples'
+url: 'https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/'
+license: MIT
+keywords:
+  - MongoDB
+  - schema design
+  - data modeling
+  - NoSQL
+  - document databases
+preferred-citation:
+  type: blog
+  title: 'MongoDB Schema Design Best Practices'
+  authors:
+    - family-names: Karlsson
+      given-names: Joe
+  year: 2020
+  month: 12
+  url: 'https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/'

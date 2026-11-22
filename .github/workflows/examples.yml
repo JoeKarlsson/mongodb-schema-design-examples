@@ -1,0 +1,34 @@
+# Runs every example against current MongoDB releases, on each push and weekly,
+# so the examples keep working as MongoDB changes.
+name: Examples
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '17 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        mongodb: ['7', '8', 'latest']
+    services:
+      mongodb:
+        image: mongo:${{ matrix.mongodb }}
+        ports:
+          - 27017:27017
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Run the examples in mongosh
+        run: |
+          docker run --rm --network host -v "$PWD:/work" mongo:${{ matrix.mongodb }} \
+            mongosh --quiet "mongodb://localhost:27017" /work/examples.mongodb.js
