@@ -2,9 +2,20 @@
 	"title": "MongoDB Schema Design Best Practices: runnable examples",
 	"description": "Runnable mongosh examples for each MongoDB relationship pattern in Joe Karlsson's article MongoDB Schema Design Best Practices: one-to-one, one-to-few, one-to-many, one-to-squillions and many-to-many, each with the query that reads it.",
 	"upload_type": "software",
-	"creators": [{ "name": "Karlsson, Joe" }],
+	"creators": [
+		{
+			"name": "Karlsson, Joe",
+			"orcid": "0009-0005-8048-9559"
+		}
+	],
 	"license": "MIT",
-	"keywords": ["MongoDB", "schema design", "data modeling", "NoSQL", "document databases"],
+	"keywords": [
+		"MongoDB",
+		"schema design",
+		"data modeling",
+		"NoSQL",
+		"document databases"
+	],
 	"related_identifiers": [
 		{
 			"identifier": "https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/",

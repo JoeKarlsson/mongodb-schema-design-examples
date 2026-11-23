@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Karlsson
     given-names: Joe
+    orcid: 'https://orcid.org/0009-0005-8048-9559'
     website: 'https://www.joekarlsson.com'
 repository-code: 'https://github.com/JoeKarlsson/mongodb-schema-design-examples'
 url: 'https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/'
@@ -21,6 +22,7 @@ preferred-citation:
   authors:
     - family-names: Karlsson
       given-names: Joe
+      orcid: 'https://orcid.org/0009-0005-8048-9559'
   year: 2020
   month: 12
   url: 'https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/'
