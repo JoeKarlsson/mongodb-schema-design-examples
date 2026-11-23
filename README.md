@@ -1,6 +1,6 @@
 # MongoDB Schema Design Examples
 
-[![Examples](https://github.com/JoeKarlsson/mongodb-schema-design-examples/actions/workflows/examples.yml/badge.svg)](https://github.com/JoeKarlsson/mongodb-schema-design-examples/actions/workflows/examples.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Examples](https://github.com/JoeKarlsson/mongodb-schema-design-examples/actions/workflows/examples.yml/badge.svg)](https://github.com/JoeKarlsson/mongodb-schema-design-examples/actions/workflows/examples.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24451384.svg)](https://doi.org/10.5281/zenodo.24451384)
 
 Every relationship pattern from MongoDB Schema Design Best Practices, from one-to-one to one-to-squillions, as a mongosh script you can run, with the query that reads each one.
 
