@@ -20,7 +20,7 @@
 		{
 			"identifier": "https://www.joekarlsson.com/talks/mongodb-schema-design-best-practices/",
 			"relation": "isSupplementTo",
-			"resource_type": "publication-blogpost"
+			"resource_type": "publication-other"
 		}
 	]
 }
